@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>$(Authors)</Company>
+    <Copyright>Copyright © 2022 Sky High Productions, LLC</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/mmeents/InPlainSight</RepositoryUrl>
+    <PackageTags>Reusable Common Concurrent Dictionaries IniFiles</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <GenerateAssemblyFileVersionAttribute>False</GenerateAssemblyFileVersionAttribute>
+    <GenerateAssemblyInformationalVersionAttribute>False</GenerateAssemblyInformationalVersionAttribute>
+    <GenerateAssemblyVersionAttribute>False</GenerateAssemblyVersionAttribute>
+    <Version>1.0.0</Version>
+    <Description>Reusable Helpers and Cuncurrent Dictionaries and IniFile </Description>
+    <PackageProjectUrl>https://github.com/mmeents/InPlainSight</PackageProjectUrl>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <PackageIcon>flame.png</PackageIcon>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\flame.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StaticExtensions" Version="2.0.2" />
+    <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.1" />
+  </ItemGroup>
+
+</Project>
